@@ -1,0 +1,153 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.navbar-default {
+    font-size: 14px;
+    border-bottom-width: 1px;
+    background-color: transparent !important;
+    border-color: transparent;
+    background-image: none;
+    box-shadow: none;
+}
+
+.container-fluid .navbar-header {
+    margin-left: 100px;
+    color: whitesmoke;
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+.container-fluid .navbar-header:hover {
+    color: black;
+}
+
+.navbar-right {
+    margin-right: 100px;
+}
+
+.navbar-default .navbar-nav {
+    /*    margin-right: 80px;*/
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: whitesmoke;
+    display: inline-block;
+    margin: 0;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover:after {
+    display: block;
+    content: '';
+    border-bottom: solid 2px white;
+    transform: scaleX();
+    transition: transform 250ms ease-in-out;
+}
+
+.navbar-default .navbar-nav > li > a:after {
+    display: block;
+    content: '';
+    border-bottom: solid 2px white;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.navbar-default .navbar-nav > li > a:hover:after {
+    transform: scaleX(1);
+}
+
+.jumbotron {
+    background: #e52d27;
+    background: -webkit-linear-gradient(to bottom, #134e5e, #71b280);
+    background: linear-gradient(to bottom, #134e5e, #71b280);
+    border-radius: 0px;
+    height: 100%;
+    margin: 0 !important;
+}
+
+.judul {
+    color: white;
+}
+
+@media (max-width:499px) {
+    .navbar-header .navbar-brand {
+        text-align: center;
+    }
+}
+
+@media (min-width:500px) {
+    .navbar-header .navbar-brand {
+        text-align: center;
+    }
+}
+
+@media (max-width:499px) {
+    .navbar-default .navbar-nav {
+        text-align: justify;
+    }
+}
+
+@media (min-width:500px) {
+    .navbar-default .navbar-nav {
+        text-align: justify;
+    }
+}
+
+@media (max-width:499px) {
+    .hero > h2 {
+        font-size: 1px;
+    }
+}
+
+@media (min-width:500px) {
+    .hero > h2 {
+        font-size: 1px;
+    }
+}
+
+.desc {
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.misi {
+    text-align: right;
+    font-size: 45px;
+}
+
+.bagan1 {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.copyright {
+    background-color: #71b280;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.copyright > a {
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.copyright > a:hover {
+    border-bottom: 2px solid black;
+}
+
+.logo-partner {
+    display: block;
+    margin-left: 150px;
+    width: 120px;
+    height: 100px
+}
